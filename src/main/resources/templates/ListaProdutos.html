@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+	<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width" />
+		<title>Gestão de Produtos</title>
+		<link th:href="@{/webjars/bootstrap/css/bootstrap.min.css}"
+		rel="stylesheet"/>
+		<link th:href="@{/webjars/bootstrap/css/bootstrap-theme.min.css}"
+		rel="stylesheet"/>
+		<style>
+			table, th, td {
+			  border: 1px solid black;
+			  border-collapse: collapse;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Gestão Produtos</h1>
+		<div class="panel panel-default" style="margin: 10px">
+			<div class="panel-heading">
+				<h1 class="panel-title">Lista de Veículos da Loja</h1>
+			</div>
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Placa</th>
+							<th>Marca</th>
+							<th>Descrição</th>
+							<th>Cor</th>
+							<th>Ano Modelo</th>
+							<th>Valor Venda</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>AAA1A11</td>
+							<td>FIAT</td>
+							<td>UNO</td>
+							<td>BRANCA</td>
+							<td>2010</td>
+							<td>R$ 15.000,00</td>
+						</tr>
+						<tr>
+							<td>AAA2A22</td>
+							<td>CHEVROLET</td>
+							<td>CLASSIC</td>
+							<td>PRATA</td>
+							<td>2012</td>
+							<td>R$ 16.000,00</td>
+						</tr>
+						<tr>
+							<td>AAA3A33</td>
+							<td>VOLKSWAGEN</td>
+							<td>GOL</td>
+							<td>VERMELHA</td>
+							<td>2014</td>
+							<td>R$ 17.000,00</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>
